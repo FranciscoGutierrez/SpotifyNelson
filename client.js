@@ -20,7 +20,6 @@ const authEndpoint = 'https://accounts.spotify.com/authorize';
 const clientId = 'a98c1dc9440c46fc9ff5178f3a31e6f7';
 //const redirectUri = 'http://localhost:8888/';
 const redirectUri = 'http://192.31.23.22:3005/';
-//const redirectUri = 'http://192.31.23.22:8888/';
 const scopes = [
   'streaming',
   'user-read-birthdate',
