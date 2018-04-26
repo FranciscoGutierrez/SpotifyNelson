@@ -1,11 +1,13 @@
 # SpotifyNelson
 A spotify interface for recommendations based on Nelson's UI: https://goo.gl/Kmc9TY
 
-## First install all the dependencies.
+## First install all the dependencies
+
 
 ``npm install``
 
-## Then start the app.
+## Then start the app
+
 
 ``npm start``
 
