@@ -1,5 +1,5 @@
 # SpotifyNelson
-A spotify interface for recommendations based on Nelson's UI: https://goo.gl/Kmc9TY
+A spotify interface for recommendations based on Nelson's UI: https://goo.gl/Kmc9TY - https://nelson.glitch.me/#
 
 ## First install all the dependencies
 
