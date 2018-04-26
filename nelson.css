@@ -72,10 +72,9 @@ h3 {
 }
 
 .nelson {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  margin: 2vw;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .nelson > div {
@@ -83,9 +82,9 @@ h3 {
 }
 
 .nelson .body {
-  width: 80%;
+  width: 100%;
   padding: 30px;
-  border: 1px #ccc solid;
+  height: 900px;
 }
 
 #current-user, #current-playback {
@@ -107,9 +106,8 @@ h3 {
 
 #tracks {
   width: 80%;
-  height: 30%;
+  height: 900px;
   overflow-y: scroll;
-  border: 1px #ccc solid;
   padding: 20px;
 }
 
@@ -145,11 +143,12 @@ h3 {
   width: 100;
   height: 100;
   margin: 0 20px;
+  border-radius: 50px;
 }
 
 .remove-icon {
-  width: 30px;
-  height: 30px;
+  width: 16px;
+  height: 16px;
   align-self: center;
   margin: 20px;
 }
